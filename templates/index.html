@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ward Supplies</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Ward Supplies</h1>
+    <p>Medical supplies for hospital wards, delivered the same day.</p>
+  </header>
+
+  <main>
+    <section class="products">
+      {% for product in products %}
+      <article class="product">
+        <div class="emoji">{{ product.emoji }}</div>
+        <h2>{{ product.name }}</h2>
+        <p>{{ product.description }}</p>
+        <div class="buy">
+          <span class="price">€{{ "%.2f"|format(product.price_cents / 100) }}</span>
+          <button type="button"
+                  data-id="{{ product.id }}"
+                  data-name="{{ product.name }}"
+                  data-price="{{ product.price_cents }}">Add to order</button>
+        </div>
+      </article>
+      {% endfor %}
+    </section>
+
+    <aside class="cart">
+      <h2>Order</h2>
+      <ul id="cart-lines"><li class="empty">Your order is empty.</li></ul>
+      <p class="total">Total: <span id="cart-total">€0.00</span></p>
+      <button type="button" id="place-order" disabled>Place order</button>
+      <p id="confirmation" hidden></p>
+    </aside>
+  </main>
+
+  <script src="{{ url_for('static', filename='cart.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+[
+  {"id": "gloves-nitrile-m", "name": "Nitrile Gloves, size M", "category": "protection", "price_cents": 899, "emoji": "🧤", "description": "Box of 100. Powder-free and latex-free."},
+  {"id": "masks-surgical", "name": "Surgical Face Masks", "category": "protection", "price_cents": 1299, "emoji": "😷", "description": "Box of 50. Type IIR, fluid resistant."},
+  {"id": "gowns-isolation", "name": "Isolation Gowns", "category": "protection", "price_cents": 2499, "emoji": "🥼", "description": "Pack of 10. Disposable, with thumb loops."},
+  {"id": "dressings-wound", "name": "Wound Dressings", "category": "wound-care", "price_cents": 1849, "emoji": "🩹", "description": "Pack of 25. Sterile, individually wrapped."},
+  {"id": "hand-rub", "name": "Alcohol Hand Rub", "category": "hygiene", "price_cents": 699, "emoji": "🧴", "description": "500 ml pump bottle."},
+  {"id": "hand-soap", "name": "Hand Soap", "category": "hygiene", "price_cents": 549, "emoji": "🧼", "description": "1 litre refill, fragrance-free."},
+  {"id": "paper-towels", "name": "Paper Towels", "category": "hygiene", "price_cents": 1599, "emoji": "🧻", "description": "Case of 12 rolls for wall dispensers."},
+  {"id": "probe-covers", "name": "Thermometer Probe Covers", "category": "diagnostics", "price_cents": 1999, "emoji": "🌡️", "description": "Box of 250, single use."},
+  {"id": "stethoscope", "name": "Stethoscope", "category": "diagnostics", "price_cents": 4999, "emoji": "🩺", "description": "Dual head, for adults and children."},
+  {"id": "sample-tubes", "name": "Sample Tubes", "category": "diagnostics", "price_cents": 2899, "emoji": "🧪", "description": "Rack of 100, with screw caps."},
+  {"id": "syringes-5ml", "name": "Syringes, 5 ml", "category": "consumables", "price_cents": 1199, "emoji": "💉", "description": "Box of 100, sterile, Luer lock."},
+  {"id": "underpads", "name": "Bed Underpads", "category": "consumables", "price_cents": 1449, "emoji": "🛏️", "description": "Pack of 30, disposable."}
+]

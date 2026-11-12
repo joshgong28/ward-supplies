@@ -1,0 +1,11 @@
+.gcloudignore
+.git
+.gitignore
+.vscode/
+.agents/
+AGENTS.md
+__pycache__/
+*.pyc
+.venv/
+participant-setup.sh
+SETUP.md
