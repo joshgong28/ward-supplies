@@ -8,6 +8,8 @@ Your facilitator gives you:
 
 **Where to type the commands on this page:** on macOS, in **Terminal** (press Cmd+Space and type "Terminal"). On Windows, in **Git Bash**, which comes with git: open the Start menu and type "Git Bash". Not Command Prompt or PowerShell.
 
+**On a desktop VM** (your facilitator tells you if you have one): everything in step 1 is already installed, so start at step 2. Open **Terminal** from the start menu. To paste in it, press Ctrl+Shift+V. If a "Choose password for new keyring" window appears, leave both fields empty and click **Continue**, then **Continue** again when it asks whether to store passwords unencrypted. It won't ask again. In step 3, gcloud warns that you're running on a Google Compute Engine virtual machine and asks whether to continue: type **y** and press Enter.
+
 ## 1. Install the tools
 
 Install them in this order. If you already have one, just do its check. Run each check in a new terminal: a terminal that was already open may not find a tool you just installed. On Linux, follow the instructions on each download page.
@@ -82,7 +84,7 @@ Open Antigravity and sign in:
 Then create a project for the app. In the sidebar, next to **Projects**, click the **Create New Project** button (a folder with a +) and choose the `ward-supplies` folder.
 
 The chat box now shows `ward-supplies` at the top left. Set it up:
-1. **Model:** click the model button next to the **+** on the left, and choose **Gemini 4 Argon** at **Medium**.
+1. **Model:** click the model button next to the **+** on the left, and choose **Gemini 4 Neon** at **Medium**.
 2. **Mode:** click the mode button next to the microphone on the right, and choose **Turbo**: the agent then runs its commands without asking you first. If you're not comfortable with that, choose **Request Review** (you approve every command) or **Default** (you approve the sensitive ones) instead. You'll then be asked to approve many commands, especially in lab 2.
 
 ## 5. Set the agent's limits
