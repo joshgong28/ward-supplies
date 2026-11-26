@@ -16,10 +16,9 @@ The virtual machine is a Linux computer in Google Cloud. You use it in Chrome, t
 
 1. In Chrome, open [remotedesktop.google.com/access](https://remotedesktop.google.com/access) and sign in with your workshop Google account. If Chrome picks another account, choose "Use another account".
 2. Click **workshop-vm** and enter your PIN. The virtual machine opens in the tab.
-3. Open **Terminal** from the start menu (bottom left). To paste in it, press **Ctrl+Shift+V**.
-4. If a "Choose password for new keyring" window appears, now or later: leave both fields empty, click **Continue**, then **Continue** again. It won't ask again.
+3. If a "Choose password for new keyring" window appears, now or later: leave both fields empty, click **Continue**, then **Continue** again.
 
-Now go to step 2, and do everything from there on the virtual machine. Where the slides say Cmd+Q, press Ctrl+Q.
+Now go to step 2, and do everything from there on the virtual machine.
 
 ## 1. Install the tools
 
@@ -55,7 +54,7 @@ Download it from [antigravity.google/download](https://antigravity.google/downlo
 
 ## 2. Get the workshop files
 
-1. Open a new terminal: **Terminal** on macOS and on the virtual machine, **Git Bash** on Windows.
+1. Open a new terminal: **Terminal** on macOS, **Git Bash** on Windows. On the virtual machine, open **Terminal** from the start menu (bottom left). To paste in it, press **Ctrl+Shift+V**.
 2. Go to your home folder:
 
    ```bash
